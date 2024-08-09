@@ -1,0 +1,136 @@
+body {
+    font-family: "Roboto", "Helvetica",  sans-serif;
+    color: #2E2F42;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h2 {
+    color: currentColor;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.menu a {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: currentColor;
+    text-decoration: none;
+}
+
+.menu a:hover, .menu a:focus {
+    color: #404BBF;
+}
+
+.logo {
+    font-family: Raleway;
+    color: currentColor;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    text-decoration: none;
+}
+
+.logo-first-word {
+    color: #4D5AE5;
+}
+
+.address a {
+    font-style: normal;
+    text-decoration: none;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.31;
+}
+
+.address a:hover {
+    color: #404BBF;
+}
+
+.first-section {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.first-section button {
+    background-color: #4D5AE5;
+    border: 0;
+    color: currentColor;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.first-section button:hover, .first-section button:focus {
+    background-color: #404BBF;
+}
+
+.second-section h2 {
+    color: white;
+}
+
+.second-section h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: currentColor;
+}
+
+.second-section p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.third-section {
+    background-color: #F4F4FD;
+    text-align: center;
+}
+
+.third-section h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: currentColor;
+}
+
+.third-section p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.forth-section h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: currentColor;
+}
+
+.forth-section p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: currentColor;
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logo-second-word {
+    color: #F4F4FD;
+}
