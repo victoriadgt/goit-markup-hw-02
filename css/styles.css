@@ -38,7 +38,7 @@ ul, ol {
     color: #2E2F42;
 }
 
-.menu a:hover, .menu a:focus {
+.menu-element:hover, .menu-element a:focus {
     color: #404BBF;
 }
 
