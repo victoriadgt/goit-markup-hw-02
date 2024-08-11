@@ -8,23 +8,16 @@ ul, ol {
     list-style-type: none;
 }
 
-h2 {
-    color: currentColor;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-}
 
 .logo {
-    font-family: Raleway, sans-serif;
-    color: #4d5ae5;
-    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     text-decoration: none;
-    letter-spacing: 0.03em
 }
 .word-studio {
     color: #2e2f42;
@@ -38,6 +31,11 @@ h2 {
     color: #2e2f42;
     text-decoration: none;
     letter-spacing: 0.02em
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2E2F42;
 }
 
 .menu a:hover, .menu a:focus {
