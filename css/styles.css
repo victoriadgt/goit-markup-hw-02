@@ -26,15 +26,11 @@ h2 {
     text-decoration: none;
     letter-spacing: 0.03em
 }
-
-.word-web {
-    color: #4d5ae5;
-}
 .word-studio {
     color: #2e2f42;
 }
 
-.menu a {
+.menu-element {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -150,5 +146,5 @@ address {
 }
 
 .word-studio-footer {
-    color: white;
+    color: #f4f4fd;
 }
