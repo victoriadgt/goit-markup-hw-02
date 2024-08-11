@@ -1,6 +1,7 @@
 body {
-    font-family: "Roboto", "Helvetica",  sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul, ol {
@@ -15,34 +16,39 @@ h2 {
     text-align: center;
 }
 
+.logo {
+    font-family: Raleway, sans-serif;
+    color: #4d5ae5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    letter-spacing: 0.03em
+}
+
+.word-web {
+    color: #4d5ae5;
+}
+.word-studio {
+    color: #2e2f42;
+}
+
 .menu a {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: currentColor;
+    color: #2e2f42;
     text-decoration: none;
+    letter-spacing: 0.02em
 }
 
 .menu a:hover, .menu a:focus {
     color: #404BBF;
 }
 
-.logo {
-    font-family: Raleway;
-    color: currentColor;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16;
-    text-decoration: none;
-}
-
-.logo-first-word {
-    color: #4D5AE5;
-}
-
-.address a {
+address {
     font-style: normal;
     text-decoration: none;
     color: #434455;
@@ -51,24 +57,41 @@ h2 {
     line-height: 1.31;
 }
 
-.address a:hover {
+.address-element {
+    text-decoration: none;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address a:hover, address a:focus {
     color: #404BBF;
 }
 
 .first-section {
     background-color: #2E2F42;
+}
+
+.first-section-title {
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em; 
 }
 
-.first-section button {
+.first-section-button {
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     border: 0;
-    color: currentColor;
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    cursor: pointer;
 }
 
 .first-section button:hover, .first-section button:focus {
@@ -79,17 +102,19 @@ h2 {
     color: white;
 }
 
-.second-section h3 {
+.second-section-titles {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: currentColor;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
-.second-section p {
+.second-section-parag {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .third-section {
@@ -97,33 +122,20 @@ h2 {
     text-align: center;
 }
 
-.third-section h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: currentColor;
+.third-section-title {
+    font-size: 36px;
+    line-height: 1.11; 
+    text-align: center;
+    letter-spacing: 0.02em; 
+    text-transform: capitalize; 
+    color: #2e2f42;
 }
 
-.third-section p {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
+.third-section-listelement {
+    background-color: #FFFFFF;
 }
 
-.forth-section h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: currentColor;
-}
-
-.forth-section p {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-footer {
+.footer {
     background-color: #2E2F42;
     color: #F4F4FD;
     font-weight: 400;
@@ -131,6 +143,12 @@ footer {
     line-height: 1.5;
 }
 
-.logo-second-word {
+.footer-parag {
+    line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.word-studio-footer {
+    color: white;
 }
